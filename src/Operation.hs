@@ -55,7 +55,7 @@ testOfInclude _ = False
 -- | The testOfPause function returns true if the beginning of the given string is \pause.
 testOfPause :: String -> Bool
 testOfPause ('\\':'p':'a':'u':'s':'e':_) = True
-testOfpause _ = False
+testOfPause _ = False
 
 -- | The removeComment function removes all extraneous source code (comments).
 removeComment :: String -> String
